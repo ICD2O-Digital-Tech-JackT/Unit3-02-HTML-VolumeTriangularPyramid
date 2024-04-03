@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+
+<head>
+  <title>Right angle triangular pyramid Volume Calculator</title>
+  <!--Css and favicon-->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Trapezoid_Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Trapezoid_Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Trapezoid_Favicon/favicon-16x16.png">
+  <link rel="manifest" href="/Trapezoid_Favicon/site.webmanifest">
+  <!--MDL-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+</head>
+
+<body>
+  <!--Scripts-->
+  <script src="/js/script.js"></script>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <h1>Right angle triangular pyramid volume calculator</h1>
+  <br>
+  <div>
+    <div class="container">
+      <br>
+      <p>Enter the height (cm):</p>
+      <input type="number" id="Height"><br><br>
+      <p>Enter side a (cm):</p>
+      <input type="number" id="SideA"><br><br>
+      <p>Enter side b (cm):</p>
+      <input type="number" id="SideB"><br><br>
+    </div>
+    <img src="/images/Formula.jpg" style="width: 350px;">
+  </div>
+
+  <button onclick="Calculate()" id="Calculate">Calculate Volume</button>
+  <div id="Output">
+    The area of this pyramid is:
+  </div>
+</body>
+
 </html>
